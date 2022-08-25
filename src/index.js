@@ -3,12 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Add from './component/Add';
+import Moviecard from './component/Moviecard';
+import Movielist from './component/Movielist';
+import { createStore } from 'redux';
+
+import { Provider , connect} from 'react-redux';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ 
+    <App></App>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

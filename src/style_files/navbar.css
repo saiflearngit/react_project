@@ -1,0 +1,28 @@
+.filter {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.fil {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.fil input {
+    color: blue;
+}
+
+@media screen and (max-width: 800px)  {
+    .filter {
+        flex-direction: column;
+    }
+    
+}
